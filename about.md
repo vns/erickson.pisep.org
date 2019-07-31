@@ -28,7 +28,7 @@ internactional group therapy and guided imagination. It was exhibited both in
 Berlin and Sofia and attracted a significant public attention.
 
 After the visit of Jeffrey Zeig, a significant milestone in the development of the
-institute include the visit of Ernest Rossi, PhD in 1999. After that followed more
+institute is marked by the visit of Ernest Rossi, PhD in 1999. After that followed more
 visits of Dr. Zeig, a training conducted by Dr. Liliana Cane, PhD, the director
 of the Milton H. Erickson Institute of Montreal, Kaloyan S. Tanev, MD, President of
 the New England Association of Hypnosis, USA.
