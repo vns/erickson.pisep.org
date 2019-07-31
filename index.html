@@ -1,72 +1,37 @@
-<!doctype html>
-<html>
-<head>
-<title>Институт Милтън Х. Ериксън София</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
-<meta charset="UTF-8">
-<style type="text/css">
-    .container {
-        border-top: 5px solid #4D5061;
-        border-bottom: 5px solid #4D5061;
-        font-family: Rubik, sans-serif;
-        text-align: center;
-        width: 800px;
-        margin: 100px auto;
-        padding: 100px 0;
-    }
+---
+layout: default
+title: Home
+---
 
-    img {
-        height: 150px;
-        width: 150px;
-    }
-
-    h1 {
-        font-size: 2em;
-        line-height: 2em;
-        color: #3A405A
-    }
-
-    p {
-        text-align: justify;
-        line-height: 1.6em;
-    }
-
-    a {
-        text-decoration: none;
-        color: #3A405A;
-    }
-
-    p a {
-        border-bottom: 1px dotted #999;
-    }
-
-</style>
-</head>
-<body>
-
-<div class="container">
-    <div>
-        <img src="images/mhe-logo.png" alt="Milton H. Erickson Foundation Logo">
-    </div>
-
-    <h1>
-        Институт Милтън Х. Ериксън
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
     </h1>
 
-    <p>
-    <em>Институт Милтън Х. Ериксън София</em> е упълномощен от <a href="https://www.erickson-foundation.org/">Фондация "Милтън
-    Х.  Ериксън", Финикс, Аризона, САЩ</a> да прилага и развива психотерапевтични
-    дейности, базирани на идеите на д-р Милтън Х. Ериксън, както и да обучава
-    професионалисти в сферата на консултативната и клинична психотерапевтична
-    практика. На основата на дългогодишен практически опит и изследвания ние
-    сме убедени в резултатността на тези идеи за преодоляването на
-    психологичните симптоми и проблеми. Мисията на института е да продължи да
-    популяризира постиженията на д-р Милтън Х. Ериксън в сферата на медицината
-    и психичното здраве.
-    </p>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <p>За допълнителна информация пишете на <a href="mailto:erickson@pisep.org">erickson@pisep.org</a></p>
+    {{ post.content }}
+  </div>
+  {% endfor %}
 </div>
-</body>
-</html>
 
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
