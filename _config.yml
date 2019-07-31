@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Hyde
 tagline:          'A Jekyll theme'
 description:      'The Milton H. Erickson Institute of Sofia'
-baseurl:          /
+baseurl:          ''
 
 paginate:         5
 
