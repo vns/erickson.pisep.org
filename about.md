@@ -33,7 +33,7 @@ visits of Dr. Zeig, a training conducted by Dr. Liliana Cane, PhD, the director
 of the Milton H. Erickson Institute of Montreal, Kaloyan S. Tanev, MD, President of
 the New England Association of Hypnosis, USA.
 
-The instiute developed the GIFT method (group interaction-focused therapy) integrating
+The institute developed the GIFT method (group interaction-focused therapy) integrating
 techniques from art therapy, music therapy, ericksonian hypnosis, brief therapy, CBT
 and process work. The method is used both for therapy and in the trainings for psychotherapists.
 
