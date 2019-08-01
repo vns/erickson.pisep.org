@@ -14,14 +14,14 @@ ideas and contributions of Milton H. Erickson, MD.
 The primary focus in the development of the institute has been the integration
 of Ericksonian approaches to therapy in other therapeutic modalities such as
 art therapy, psychodrama, family therapy and others. The therapeutic practice
-of the institute consists of clinical problems such as phobias, depression,
+of the institute consists of working with clinical problems such as phobias, depression,
 anxiety, panic attacks, OCDs, addictions and others.
 
 The institute has conducted its trainings in the forms of workshops and courses
 as part of the training programmes of PISEP for counsellors and
 psychotherapists.
 
-In 2004, the Milton H. Erickson Institute in partnership with a group of German
+In 2004, the Milton H. Erickson Institute in collaboration with a group of German
 artists completed a project named "Sofia: a city in transition – past, present and future".
 It was based on the approach of Erickson and methods of art therapy,
 internactional group therapy and guided imagination. It was exhibited both in
